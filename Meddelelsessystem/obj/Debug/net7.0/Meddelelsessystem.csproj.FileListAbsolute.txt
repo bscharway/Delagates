@@ -1,0 +1,15 @@
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\Meddelelsessystem.csproj.AssemblyReference.cache
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\Meddelelsessystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\Meddelelsessystem.AssemblyInfoInputs.cache
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\Meddelelsessystem.AssemblyInfo.cs
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\Meddelelsessystem.csproj.CoreCompileInputs.cache
+C:\Users\Bright\source\Meddelelsessystem\bin\Debug\net7.0\Meddelelsessystem.exe
+C:\Users\Bright\source\Meddelelsessystem\bin\Debug\net7.0\Meddelelsessystem.deps.json
+C:\Users\Bright\source\Meddelelsessystem\bin\Debug\net7.0\Meddelelsessystem.runtimeconfig.json
+C:\Users\Bright\source\Meddelelsessystem\bin\Debug\net7.0\Meddelelsessystem.dll
+C:\Users\Bright\source\Meddelelsessystem\bin\Debug\net7.0\Meddelelsessystem.pdb
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\Meddelelsessystem.dll
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\refint\Meddelelsessystem.dll
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\Meddelelsessystem.pdb
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\Meddelelsessystem.genruntimeconfig.cache
+C:\Users\Bright\source\Meddelelsessystem\obj\Debug\net7.0\ref\Meddelelsessystem.dll
