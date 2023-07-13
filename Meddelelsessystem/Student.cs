@@ -9,25 +9,29 @@ namespace Meddelelsessystem
 {
     public class Student: Person, IObserver
     {
-        Academy academy;
+        //Academy academy;
         public string Message { get; set; }
         
-        public Student(Academy academy, string name): base(name)
+        public Student(/*Academy academy,*/ string name): base(name)
         {
-            this.academy = academy;
+            //this.academy = academy;
         }
 
         //private Academy subject;
         
         //public string Name { get; }
 
-        public void Update()
+        public void Update(object sender, EventArgs e)
         {
-            if (academy.Message != this.Message)
+            Academy senderObject = sender as Academy;
+            Console.WriteLine($"Studerende {this.Name} modtog nyheden {senderObject.Message} fra akademiet {senderObject.Name}");
+            /*
+            if ( != this.Message)
             {
                 this.Message = academy.Message;
                 Console.WriteLine($"Studerende {this.Name} modtog nyheden {this.Message} fra akademiet {academy.Name}");
             }
+            */
         }
     }
 }

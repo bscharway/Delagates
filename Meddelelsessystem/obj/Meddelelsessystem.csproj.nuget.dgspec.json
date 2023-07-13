@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bright\\source\\Meddelelsessystem\\Meddelelsessystem.csproj": {}
+    "C:\\Users\\Bright\\source\\repos\\Delagates\\Meddelelsessystem\\Meddelelsessystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bright\\source\\Meddelelsessystem\\Meddelelsessystem.csproj": {
+    "C:\\Users\\Bright\\source\\repos\\Delagates\\Meddelelsessystem\\Meddelelsessystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bright\\source\\Meddelelsessystem\\Meddelelsessystem.csproj",
+        "projectUniqueName": "C:\\Users\\Bright\\source\\repos\\Delagates\\Meddelelsessystem\\Meddelelsessystem.csproj",
         "projectName": "Meddelelsessystem",
-        "projectPath": "C:\\Users\\Bright\\source\\Meddelelsessystem\\Meddelelsessystem.csproj",
+        "projectPath": "C:\\Users\\Bright\\source\\repos\\Delagates\\Meddelelsessystem\\Meddelelsessystem.csproj",
         "packagesPath": "C:\\Users\\Bright\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bright\\source\\Meddelelsessystem\\obj\\",
+        "outputPath": "C:\\Users\\Bright\\source\\repos\\Delagates\\Meddelelsessystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

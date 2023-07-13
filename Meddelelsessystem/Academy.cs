@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public delegate void NotifyHandler();
+public delegate void NotifyHandler( object sender, EventArgs e);
 
 namespace Meddelelsessystem
 {
-    public class Academy:Organization//,ISubject
+    public class Academy:Organization, INotifyMessageChanged//,ISubject
     {
-        public NotifyHandler MessageChanged;
+        public event NotifyHandler MessageChanged;
 
          
 
@@ -23,7 +23,18 @@ namespace Meddelelsessystem
         public string Message
         {
             get { return message; }
-            set { message = value; /*Notify()*/ MessageChanged.Invoke(); }
+            set 
+            { 
+                if (value != message)
+                    { 
+                        message = value;
+                    /*if (MessageChanged != null)
+                    {
+                        MessageChanged(this, EventArgs.Empty);
+                    }*/
+                    OnMessageChanged(this) /*MessageChanged.Invoke()*/; 
+                    }
+            }
 
         }
 
@@ -34,7 +45,8 @@ namespace Meddelelsessystem
         {
             this.Addresse = addresse;
         }
-         
+
+
         // Methods_________________________________________________________________________________________________________
         /*
         public void Attach(IObserver o)
@@ -50,9 +62,13 @@ namespace Meddelelsessystem
         }
         */
 
-        public void OnMessageChanged ()
+        public void OnMessageChanged (object sender, EventArgs e = null )
         {
-            MessageChanged.Invoke();
+            if ( MessageChanged != null ) 
+            {
+                MessageChanged( this, e );
+            }
+            
            /* foreach (IObserver observer in students) 
             { 
                 student.Update(); 

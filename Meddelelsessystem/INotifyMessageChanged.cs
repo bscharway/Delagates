@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Meddelelsessystem
 {
-    public interface IObserver
+    public interface INotifyMessageChanged
     {
-        void Update(object sender, EventArgs e);
+        public event NotifyHandler MessageChanged;
+        
     }
 }
